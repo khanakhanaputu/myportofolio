@@ -857,6 +857,11 @@
       display: flex;
     }
   }
+  .md\:min-h-\[90dvh\] {
+    @media (width >= 48rem) {
+      min-height: 90dvh;
+    }
+  }
   .md\:w-2\/3 {
     @media (width >= 48rem) {
       width: calc(2/3 * 100%);
